@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<modDesc descVersion="116" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://validation.gdn.giants-software.com/xml/fs25/modDesc.xsd">
+    <author>FS Modding</author>
+    <version>1.0.0.0</version>
+    <title>
+        <en>No Speed Limit - Full Power</en>
+        <ro>Fara Limita de Viteza - Full Power</ro>
+    </title>
+    <description>
+        <en><![CDATA[Removes the speedLimit from every vehicle and implement. Tractors, trailers and tools no longer slow you down, no matter which mod they come from. Engines also get extra torque, so heavy tools no longer slow you down.]]></en>
+        <ro><![CDATA[Elimina speedLimit de la orice vehicul si utilaj. Tractoarele, remorcile si uneltele nu te mai incetinesc, indiferent de mod. Motoarele primesc si cuplu extra, deci uneltele grele nu te mai incetinesc.]]></ro>
+    </description>
+    <iconFilename>icon_NoSpeedLimit.dds</iconFilename>
+    <multiplayer supported="true"/>
+    <extraSourceFiles>
+        <sourceFile filename="scripts/NoSpeedLimit.lua"/>
+    </extraSourceFiles>
+</modDesc>
